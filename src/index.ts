@@ -30,4 +30,4 @@ let ordenados: string = nombres.sort();
 
 console.log(ordenados);
 
-let METODOS DE Arreglo;
+let METODOS DE Arreglo
