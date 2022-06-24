@@ -1,4 +1,4 @@
-class App{
+let class App{
 	constructor(descargas,puntuacion,peso){
 		this.descargas = descargas;
 		this.puntuacion = puntuacion;
