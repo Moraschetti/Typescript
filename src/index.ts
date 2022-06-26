@@ -30,4 +30,21 @@ let ordenados: string = nombres.sort();
 
 console.log(ordenados);
 
-let METODOS DE Arreglo
+let recursividad;
+
+console.clear();
+
+let i : number = 59;
+
+function impri() {
+  console.log(i);
+  i = i + 1 ;
+
+  if(i <= 100){
+    impri();
+  }
+  
+}
+
+impri();
+console.log("fin");
