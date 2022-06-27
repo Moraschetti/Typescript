@@ -7,9 +7,9 @@ function bubbleSort{
   let años:number = [12,87,56,34,21];
   let alturaCm: number = [178,162,183,189,176];
   
-for(nombre=0; nombre < alturaCm-1; nombre++ ){
+for(nombre = 0; nombre < alturaCm.length -1; nombre ++ ){
   
-    for(años=0; años < alturaCm-1; años++){
+    for(años = 0; años < alturaCm.length -1; años ++){
 
       persona:Number = prompt('${nombre + 1}:');
       edad:Number = number(prompt('Tiene ${nombre + 1}:')); 
@@ -18,11 +18,7 @@ for(nombre=0; nombre < alturaCm-1; nombre++ ){
       swap(alturaCm,años,años+1);
     }
   }
-}return(bubbleSort[nombre, años, alturaCm]);
+}return(bubbleSort[nombre,años,alturaCm]);
 
 }
-consol.log(nombre);
-
-
-
-
+console.log(bubbleSort);
