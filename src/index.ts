@@ -75,20 +75,21 @@ function imprimirArregloSec(arreglo:number[],largo:number):number{
 }
 
 //bubble
-console.clear()
+console.clear();
 
-for(numCliente = 0; numCliente < 10; numCliente++){
-  cliente = prompt('cliente ${numCliente + 1}:');
-  fact = number(prompt('facturacion ${numCliente + 1}:'));
-  i = ();
-  while (i < numCliente && facturacion[i] > fact){
-    i++;
+//for(numCliente = 0; numCliente < 10; numCliente++){
+  //cliente = prompt('cliente ${numCliente + 1}:');
+//  fact = number(prompt('facturacion ${numCliente + 1}:'));
+  //i = ();
+//  while (i < numCliente && facturacion[i] > fact){
+//    i++;
 
-  }
-  for(j = numCliente; j < i; j++){
-    clientes[j] = clientes[j-1];
-    facturacion[j] = facturacion[j-1];
-  }
-  clientes[i] = cliente;
-  facturacion[i] = fact;
-}
+ // }
+ // for(j = numCliente; j < i; j++){
+ //   clientes[j] = clientes[j-1];
+ //   facturacion[j] = facturacion[j-1];
+ // }
+ // clientes[i] = cliente;
+ // facturacion[i] = fact;
+//}
+//console.clear();
