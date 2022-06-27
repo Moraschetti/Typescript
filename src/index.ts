@@ -48,3 +48,47 @@ function impri() {
 
 impri();
 console.log("fin");
+
+console.clear();
+
+//de forma recursiva
+
+function imprimirArregloRec(arreglo:number[], indice:number,largo:number):number{
+  if(indice <= largo){
+    console.log('posicion ${indice} tiene: $(imprimirArregloRec(arreglo,indice+1,largo))');
+
+  }
+  return arreglo[indice - 1];
+}
+
+//de forma secuencial
+
+console.clear();
+
+function imprimirArregloSec(arreglo:number[],largo:number):number{
+    let indice: number;
+
+  for(indice = 0, indice <= largo, indice ++){
+    console.log('posicion ${indice} tiene: ${arreglo[indice]}');
+
+  }
+}
+
+//bubble
+console.clear()
+
+for(numCliente = 0; numCliente < 10; numCliente++){
+  cliente = prompt('cliente ${numCliente + 1}:');
+  fact = number(prompt('facturacion ${numCliente + 1}:'));
+  i = ();
+  while (i < numCliente && facturacion[i] > fact){
+    i++;
+
+  }
+  for(j = numCliente; j < i; j++){
+    clientes[j] = clientes[j-1];
+    facturacion[j] = facturacion[j-1];
+  }
+  clientes[i] = cliente;
+  facturacion[i] = fact;
+}
